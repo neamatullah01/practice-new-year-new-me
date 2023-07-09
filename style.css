@@ -24,6 +24,7 @@
     font-weight: 700;
     margin: 0px;
     padding-right: 0px;
+    margin-bottom: 24px;
 }
 
 .banner-des {
@@ -31,7 +32,6 @@
     font-family: Work Sans;
     font-size: 16px;
     font-weight: 400;
-    margin-top: 24px;
     margin-bottom: 0px;
 }
 
@@ -45,4 +45,43 @@
     padding: 19px 26px;
     border: 0px;
     margin-top: 32px;
+}
+
+/* main section styles */
+
+.main-cotainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 139px;
+    margin-left: 275px;
+    margin-right: 322px;
+    gap: 130px;
+}
+
+.main-title {
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.main-des {
+    color: #444343;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 18px;
+    list-style: none;
+}
+.main-des li{
+    padding-bottom: 5px;
+}
+.images{
+    background-image: url("./images/gradient2.png"), url("./images/watch.png");
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 300px;
+    margin: 60px auto;
 }
